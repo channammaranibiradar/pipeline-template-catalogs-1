@@ -1,7 +1,7 @@
 type: pipeline-template
 version: 1
 
-name: Java CI Pipeline with Security Scans
+name: Java CI Pipeline 
 displayName: Java CI – Build, Scan & Docker Image
 
 description: >
