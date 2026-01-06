@@ -2,7 +2,7 @@ type: pipeline-template-catalog
 version: 1
 
 name: devops-ci-pipeline-catalog
-displayName: DevOps CI Pipeline Templates
+displayName: pipleline-template2
 
 description: >
   Ready-to-use CI/CD pipelines for Java, Docker, and Security scanning.
