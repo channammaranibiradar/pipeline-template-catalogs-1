@@ -5,17 +5,12 @@ name: devops-ci-pipeline-catalog
 displayName: DevOps CI Pipeline Templates
 
 description: >
-  This catalog provides ready-to-use CI/CD pipeline templates for developers.
-  These templates automate common DevOps tasks such as building code,
-  running quality checks, scanning for security vulnerabilities,
-  building container images, and publishing reports.
-  No deep Jenkins knowledge is required to use these templates.
+  Ready-to-use CI/CD pipelines for Java, Docker, and Security scanning.
 
 icon: https://avatars.githubusercontent.com/u/44036562
 
 categories:
   - CI/CD
-  - DevOps
   - Java
   - Containers
   - Security
@@ -24,14 +19,6 @@ templates:
   - name: board-game-ci
     displayName: Java CI Pipeline (Maven + Docker + Security)
     description: >
-      A complete CI pipeline for Java applications.
-      It automatically builds the application using Maven,
-      checks code quality with SonarQube,
-      scans the source code and container image for security issues using Trivy,
-      builds and pushes Docker images using Kaniko,
-      and generates a Software Bill of Materials (SBOM).
-      Ideal for teams deploying applications on Kubernetes.
-
+      Java CI pipeline with Maven, SonarQube, Trivy, Kaniko, and SBOM.
     version: 1.0.0
-    file: templates/board-game-ci/Jenkinsfile
-
+    file: templates/board-game-ci/pipeline.yaml
